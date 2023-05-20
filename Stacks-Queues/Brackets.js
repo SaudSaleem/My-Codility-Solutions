@@ -21,7 +21,7 @@ string S is made only of the following characters: '(', '{', '[', ']', '}' and/o
 */
 
 function solution(S) {
-    // Implement your solution here
+    // THIS SOLUTION HAS 100% PERCENT SCORE ON CODILITY PLATFORM. ITS RUNNING COST IS O(N)
     if (!S.length) return 1; //empty string is also considered as properly nested
     if (S.length % 2 !== 0) return 0;
     const stack = [];
